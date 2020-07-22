@@ -10,12 +10,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class accountFragment extends Fragment {
+public class categorieFragment extends Fragment {
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.activity_account_fragment, container, false);
+        return inflater.inflate(R.layout.activity_categorie_fragment, container , false);
     }
+
 }
